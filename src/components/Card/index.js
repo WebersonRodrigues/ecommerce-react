@@ -1,11 +1,13 @@
 import "./index.css";
-import bunequinho from "../../assets/img/male-01.JPG"
 
-function Card(){
+
+// Isso é um componente
+function Card(props){
 
     return ( // JSX
         <div className="card">
-          <img  src={bunequinho} alt=""/>
+          <h1>{props.texto}</h1>
+          <p>{props.subtitulo }</p>
         </div>
     );
 }
