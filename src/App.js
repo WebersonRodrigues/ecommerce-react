@@ -1,12 +1,8 @@
-import Header from "./components/Header";
-import Login from "./pages/Login";
+import Router from "./router";
 
 function App() {
   return (
-    <div>
-      <Header/>
-      <Login />
-    </div>
+    <Router/>
   );
 }
 
